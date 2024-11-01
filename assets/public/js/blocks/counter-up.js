@@ -1,0 +1,1 @@
+document.querySelectorAll(".jltmb__counter").forEach((function(t){var e=parseInt(t.getAttribute("data-form")),r=parseInt(t.getAttribute("data-to")),a=parseInt(t.getAttribute("data-duration")),n=Math.fround(a/r),o=setInterval((function(){e+=1,t.textContent=e,r===e&&clearInterval(o)}),n)}));
